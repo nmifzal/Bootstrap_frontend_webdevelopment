@@ -40,11 +40,16 @@
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm">
-                </div>
-                <div class="col-12 col-sm align-self-center">
+                
+                
+                <div class="col-12 col-sm-3 align-self-center">
                         <img src="img/logo.png" class="img-fluid">
                     </div>
+
+
+                    <div class="col-12 col-sm-3 align-self-center">
+                          <a href="#card"> <button type="button"   class="btn btn-warning btn-lg btn-block">Reserve Table</button></a>
+                        </div>   
             </div>
         </div>
     </header>
@@ -75,14 +80,24 @@
             <div class="col-12 col-sm-4 col-md-3">
                 <h3>This Month's Promotions</h3>
             </div>
-            <div class="col col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p class="d-none d-xl-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
-                <p class="d-none d-xl-block" >Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+            <div class="col col-sm order-sm-last col-md">
+                    <div class="media">
+                        
+                            <div class="media-body">
+                                <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                                <p class="d-none d-sm-block">
+                                        Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences.
+                                     Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person</p>
+                            </div>
+                            <img class="d-flex mr-3 img-thumbnail align-self-center"
+                            src="img/buffet.png" alt="Uthappizza">
+                        </div>
+                    
             </div>
+            
         </div>
 
-        <div class="row row-content row-content align-items-center">
+        <div class="row row-content  align-items-center">
             <div class="col-12 col-sm-4 order-sm-last col-md-3">
                 <h3>Meet our Culinary Specialists</h3>
             </div>
@@ -103,6 +118,72 @@
 
             </div>
         </div>
+        <div class="row row-content align-items-center ">
+         
+                <div class="col-md-8 col-sm-6 offset-sm-2 ">
+                        <div class="card" id="card">
+                            <h3 class="card-header navbar-dark2 text-white">Reserve a Table</h3>
+                            <div class="card-body">
+                             
+                                        <form id="reserve">
+                                                <div class="form-group row">
+                                                    <label for="firstname" class="col-md-2 col-form-label">Number of Guest</label>
+                                                    <div class="col-md-6">
+                                                            <div class="form-check form-check-inline">
+                                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                                    <label class="form-check-label" for="inlineRadio1">1</label>
+                                                                  </div>
+                                                                  <div class="form-check form-check-inline">
+                                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                                    <label class="form-check-label" for="inlineRadio2">2</label>
+                                                                  </div>
+                                                                  <div class="form-check form-check-inline">
+                                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                                                    <label class="form-check-label" for="inlineRadio3">3 </label>
+                                                                  </div>
+                                                                  <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+                                                                        <label class="form-check-label" for="inlineRadio4">4 </label>
+                                                                      </div>
+                                                                      <div class="form-check form-check-inline">
+                                                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5">
+                                                                            <label class="form-check-label" for="inlineRadio5">5 </label>
+                                                                          </div>
+                                                                          <div class="form-check form-check-inline">
+                                                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio6" value="option6">
+                                                                                <label class="form-check-label" for="inlineRadio6">6 </label>
+                                                                              </div>
+                                                          </div>
+                
+                                                       </div>
+                                                            <div class="form-group row">
+                                                                    <label for="firstname" class="col-md-2 col-form-label">Number of Guest</label>
+                                                                    <div class="col-12 col-md-4">
+                                                                            <input class="form-control date" placeholder="Date" type="text"  id="example-date-input">
+                                                                          </div>
+                                                                          <div class="col-12 col-md-4">
+                                                                                <input class="form-control timepicker" placeholder="time" type="text"  id="example-date-input">
+                                                                              </div>
+                                                                </div>
+                                                                <div class="form-group row">
+                                                                        <div class="offset-md-2 col-6">
+                                                                         <a>   <button type="submit" class="btn btn-primary">reserve</button></a>
+                                                                         
+                                                                        </div>
+                                                                  </div>
+                    
+                                            </form>
+                                    
+                               
+                            </div>
+                        </div>
+                    </div>
+
+        </div>
+
+
+
+
     </div>
 
     <footer class="footer">
